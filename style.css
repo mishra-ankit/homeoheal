@@ -840,6 +840,14 @@ img{
 	padding: 70px 0;
 	width: 100%;
 }
+
+#director {
+	padding : 70px 0;
+	float: left;
+	display: inline;
+	width: 100%;
+}
+
 .service_area{
 	display: inline;
 	float: left;
