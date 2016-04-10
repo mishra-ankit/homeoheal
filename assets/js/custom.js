@@ -30,17 +30,17 @@ jQuery(function($) {
 	/*  1. HEADER CONTENT SLIDE (SLICK SLIDER)
 	/* ----------------------------------------------------------- */
 
-	jQuery('.header-slide').slick({
-		dots: false,
-		infinite: true,
-		speed: 500,
-		arrows: false,
-		autoplay: true,
-		slidesToShow: 1,
-		slide: 'span',
-		fade: true,
-		cssEase: 'linear'
-	});
+	// jQuery('.header-slide').slick({
+	// 	dots: false,
+	// 	infinite: true,
+	// 	speed: 500,
+	// 	arrows: false,
+	// 	autoplay: true,
+	// 	slidesToShow: 1,
+	// 	slide: 'span',
+	// 	fade: true,
+	// 	cssEase: 'linear'
+	// });
 
 	/* ----------------------------------------------------------- */
 	/*  2. FIXED MENU
@@ -69,10 +69,10 @@ jQuery(function($) {
 	/*  3. COUNTER
 	/* ----------------------------------------------------------- */
 
-	jQuery('.counter').counterUp({
-		delay: 10,
-		time: 1000
-	});
+	// jQuery('.counter').counterUp({
+	// 	delay: 10,
+	// 	time: 1000
+	// });
 
 
 	/* ----------------------------------------------------------- */
@@ -210,17 +210,17 @@ jQuery(function($) {
 	/*  8. MIXIT FILTER ( FOR PORTFOLIO ) 
 	/* ----------------------------------------------------------- */
 
-	jQuery(function() {
-		$('#mixit-container').mixItUp();
-	});
+	// jQuery(function() {
+	// 	$('#mixit-container').mixItUp();
+	// });
 
 	/* ----------------------------------------------------------- */
 	/*  9. FANCYBOX ( FOR PORTFOLIO POPUP VIEW ) 
 	/* ----------------------------------------------------------- */
 
-	jQuery(document).ready(function() {
-		$(".fancybox").fancybox();
-	});
+	// jQuery(document).ready(function() {
+	// 	$(".fancybox").fancybox();
+	// });
 
 	/* ----------------------------------------------------------- */
 	/*  10. MOBILE MENU CLOSE 
