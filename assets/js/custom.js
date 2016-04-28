@@ -30,17 +30,17 @@ jQuery(function($) {
 	/*  1. HEADER CONTENT SLIDE (SLICK SLIDER)
 	/* ----------------------------------------------------------- */
 
-	// jQuery('.header-slide').slick({
-	// 	dots: false,
-	// 	infinite: true,
-	// 	speed: 500,
-	// 	arrows: false,
-	// 	autoplay: true,
-	// 	slidesToShow: 1,
-	// 	slide: 'span',
-	// 	fade: true,
-	// 	cssEase: 'linear'
-	// });
+	jQuery('.header-slide').slick({
+		dots: false,
+		infinite: true,
+		speed: 500,
+		arrows: false,
+		autoplay: true,
+		slidesToShow: 1,
+		slide: 'span',
+		fade: true,
+		cssEase: 'linear'
+	});
 
 	/* ----------------------------------------------------------- */
 	/*  2. FIXED MENU
