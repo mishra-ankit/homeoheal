@@ -3136,3 +3136,8 @@ height: 450px;
     transform: translateY(50%); }
   100% {
     transform: translateY(0%); } }
+
+
+.img-thumbnail {
+	height : 250px;
+}
