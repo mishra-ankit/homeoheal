@@ -286,7 +286,7 @@ var marker;
 
 function initMap() {
 	var map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 15,
+		zoom: 12.4,  /*change zoom*/
 		zoomControl: false,
 		scaleControl: false,
 		scrollwheel: false,
@@ -317,6 +317,26 @@ function initMap() {
 			lng: 75.842865
 		}
 	});
+ /*vijay nagar*/
+	marker3 = new google.maps.Marker({
+		map: map,
+		draggable: true,
+		animation: google.maps.Animation.DROP,
+		position: {
+			lat: 22.761652,
+			lng: 75.885971
+		}
+	});
+	/*mhow naka*/
+	marker4 = new google.maps.Marker({
+		map: map,
+		draggable: true,
+		animation: google.maps.Animation.DROP,
+		position: {
+			lat: 22.704218,
+			lng: 75.842762
+		}
+	});
 
 
 	var infowindow = new google.maps.InfoWindow({
@@ -330,6 +350,20 @@ function initMap() {
 	});
 
 	infowindow2.open(map, marker2);
+
+ /*vijay nagar*/
+	var infowindow3 = new google.maps.InfoWindow({
+  		content: '<h4>Homeoheal (Opposite Prestige College, Vijay Nagar)</h4> <a target="_blank" href="https://maps.google.com?saddr=Current+Location&daddr=22.761652,75.885971">Get Directions</a>'
+   	});
+
+   	infowindow3.open(map, marker3);
+
+ /*mhow naka*/
+	var infowindow4 = new google.maps.InfoWindow({
+  		content: '<h4>Homeoheal Smile and Shine lounge (Mhow Naka Square, Usha Nagar)</h4> <a target="_blank" href="https://maps.google.com?saddr=Current+Location&daddr=22.704218,75.842762">Get Directions</a>'
+   	});
+
+   	infowindow4.open(map, marker4);
 
 }
 
