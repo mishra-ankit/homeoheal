@@ -725,20 +725,6 @@ img{
 	transition: all 0.4s ease-in-out;
 }
 
-.team-img-1 { 
-	background-image: url(assets/images/team-member1.png);
-}
-
-.team-img-2 { 
-	background-image: url(assets/images/team-member2.png);
-}
-
-.team-img-3 { 
-	background-image: url(assets/images/team-member3.png);
-}
-.team-img-4 { 
-	background-image: url(assets/images/team-member4.png);
-}
 .team-info {
 	position: absolute;
 	width: inherit;
