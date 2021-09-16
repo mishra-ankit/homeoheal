@@ -802,8 +802,7 @@ img{
 	opacity: 1;
 }
 .team-address {
-	display: inline;
-	float: left;
+	display: block;
 	margin-top: 26px;
 	text-align: center;
 	width: 100%;
@@ -823,6 +822,7 @@ img{
 }
 
 .team-address span {
+	display: block;
 	color: #777777;
 	font-size: 17px;
 	font-style: italic;
